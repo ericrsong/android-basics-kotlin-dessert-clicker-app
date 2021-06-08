@@ -149,11 +149,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-//    override fun onResume() {
-//        super.onResume()
-//        Log.d(TAG, "onResume called")
-//    }
-//
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "onResume called")
+    }
+
 //    override fun onPause() {
 //        super.onPause()
 //        Log.d(TAG, "onPause called")
